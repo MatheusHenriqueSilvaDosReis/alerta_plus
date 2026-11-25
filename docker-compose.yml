@@ -1,0 +1,13 @@
+services:
+  alerta-plus:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: alerta-plus
+    ports:
+      - "8000:8000"
+    env_file:
+      - ./viena/.env
+    environment:
+      - PORT=8000
+    restart: unless-stopped

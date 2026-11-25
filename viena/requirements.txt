@@ -1,0 +1,9 @@
+fastapi
+
+uvicorn
+
+supabase
+
+python-dotenv
+
+email-validator

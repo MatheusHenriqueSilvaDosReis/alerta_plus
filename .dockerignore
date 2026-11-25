@@ -1,0 +1,19 @@
+# Ambientes virtuais e caches Python
+**/venv
+**/.venv
+**/__pycache__
+**/*.pyc
+
+# Dependências e builds Node / Expo
+**/node_modules
+**/.expo
+**/dist
+
+# Controle de versão e arquivos locais
+**/.git
+**/.gitignore
+**/.claude
+
+# Variáveis de ambiente (configure no painel do Render ou via env_file)
+**/.env
+**/.env.*
